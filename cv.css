@@ -1,5 +1,5 @@
 #tab1 {
-    background-color: rgba(17, 70, 230, 0.333)
+    background-color: rgba(17, 70, 230, 0.333);
 }
 
 img {
@@ -8,13 +8,26 @@ img {
     height: 150px;
 }
 
-#tab2 { 
+#div2 { 
     border: dotted;
     border: 2;
     background-color: rgb(54, 39, 39);
+    border-radius: 10px;
+    width: 100%;
+
 }
 
-table {
-    margin-left: 38%;
-    background-color: aqua;
+
+#div3 { 
+    border: dotted;
+    background-color: rgb(235, 211, 211);
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+
+.violet {
+    background-color: blueviolet;
+    width: 100%;
 }
