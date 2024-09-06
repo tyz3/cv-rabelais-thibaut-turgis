@@ -4,9 +4,7 @@
 
 <head>
 
-  <title>Titre de la page</title>
-
-  <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="cv.css"/>
 
 <!-- charset=UTF-8 : pour que les caractères accentués ressortent correctement -->
 
@@ -17,12 +15,12 @@
 </head>
 
 <body>
-    <table>
+    <table id="tab0">
         <div id="div1">
-            <table id ="tab1"border= 2 >
+            <table id ="tab1" >
                 <tr>
-                    <td>Thibaut</br>TURGIS</br>France</br>Né le 14 octobre 2006 </br> <a href="http://www.java.com/">turgis.thibaut@gmail.com</a>   </td>
-                    <td><img src="https://png.pngtree.com/png-vector/20210129/ourmid/pngtree-upload-avatar-by-default-png-image_2854358.jpg" alt="Image utilisateur" width="150" height="150" > </td>
+                    <td>Thibaut</br>TURGIS</br>France</br>Né le 14 octobre 2006 </br> <a href="mailto:turgis.thibaut@gmail.com">turgis.thibaut@gmail.com</a>   </td>
+                    <td><img src="file.png" alt="Image utilisateur" > </td>
                 </tr>
             
             </table id ="tab1"> 
@@ -30,8 +28,11 @@
 
         <div id="div2">
 
-            <a><h1>Etudes</h1></a>
-            <table id ="tab2" border=2>
+            <table id ="tab2" >
+
+                <tr>
+                    <td colspan="2"><a><h1>Etudes</h1></a> <td>
+                </tr>
                 <tr>
                     <td>2023/2024</td>
                     <td>Bac générale (spé Mathémaques, NSI)</td>
@@ -52,9 +53,10 @@
         </div id="div2">
 
         <div id="div3">
-
-            <p><h1>Compétences informatiques</h1></p>    
-            <table id ="tab3" border=2>
+            <table id="tab3">
+                <tr>
+                <td colspan="2"><a><h1>Compétences informatiques</h1></a> <td>
+                </tr>
                 <tr>
                     <td>Système d'exploitation</td>
                     <td>Windows 10</td>
@@ -62,7 +64,7 @@
                 </tr>
                 <tr>
                     <td>Langages</td>
-                    <td>HTML, CSS, python, SQL</td>
+                    <td>HTML, CSS, python, SQL, <a href="http://www.java.com/">Java</a></td>
                 </tr>
                 <tr>
                     <td>IDE</td>
@@ -83,8 +85,11 @@
             </table id ="tab3">
         </div id="div3">
         <div id="div4">
-            <p><h1>Expériences professionnelles</h1></p>
+            
             <table border=2 id ="tab4">
+                <tr>
+                    <td colspan="2"><a><h1>Expériences professionnelles</h1></a> <td>
+                </tr>
                 <tr>
                     <td>2009</td>
                     <td>Ecole primaire</td>
@@ -112,8 +117,11 @@
 
         <div id="div5">
 
-            <p><h1>Divers</h1></p>
+            
             <table id ="tab5">  
+                <ul>
+                    <td colspan="2"><a><h1>Divers</h1></a> </td>
+                </ul>
                 
                 <ul>
                     <li>Jeux vidéos</li>
@@ -122,7 +130,7 @@
 
             </table id ="tab5">
         </div id="div5">
-    </table>
+    </table id="tab0">
 </body>
 
 </html>  

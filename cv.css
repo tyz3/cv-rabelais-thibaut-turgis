@@ -1,0 +1,20 @@
+#tab1 {
+    background-color: rgba(17, 70, 230, 0.333)
+}
+
+img {
+    background-color: rgb(60, 168, 168);
+    width: 200px;
+    height: 150px;
+}
+
+#tab2 { 
+    border: dotted;
+    border: 2;
+    background-color: rgb(54, 39, 39);
+}
+
+table {
+    margin-left: 38%;
+    background-color: aqua;
+}
