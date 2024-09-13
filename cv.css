@@ -1,33 +1,59 @@
-#tab1 {
-    background-color: rgba(17, 70, 230, 0.333);
-}
-
 img {
     background-color: rgb(60, 168, 168);
-    width: 200px;
-    height: 150px;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 #div2 { 
     border: dotted;
     border: 2;
-    background-color: rgb(54, 39, 39);
+    background-color: rgb(182, 29, 29);
     border-radius: 10px;
     width: 100%;
+    margin-bottom: 20px;
 
 }
 
+body{
+    background-color: rgba(17, 70, 230, 0.333);
 
+}
 #div3 { 
     border: dotted;
     background-color: rgb(235, 211, 211);
     border-radius: 10px;
     width: 100%;
+    margin-bottom: 20px;
 
 }
 
+table{
+    border-collapse: collapse;
+}
 
 .violet {
     background-color: blueviolet;
+
+}
+
+#div4 { 
+    border: dotted;
+    border: 2;
+    background-color: rgb(182, 29, 29);
+    border-radius: 10px;
     width: 100%;
+    margin-bottom: 20px;
+
+}
+
+#div5 { 
+    border: dotted;
+    background-color: rgb(235, 211, 211);
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+
 }
