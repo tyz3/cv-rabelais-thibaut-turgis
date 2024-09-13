@@ -19,11 +19,11 @@ table{
 
 .violet {
     background-color: blueviolet;
+    margin-left: 100%;
 }
 
 #etudes { 
     border: dotted;
-    border: 2;
     background-color: rgb(182, 29, 29);
     border-radius: 10px;
     width: 100%;
@@ -41,7 +41,6 @@ table{
 
 #experiences { 
     border: dotted;
-    border: 2;
     background-color: rgb(182, 29, 29);
     border-radius: 10px; 
     width: 100%;
@@ -54,4 +53,5 @@ table{
     border-radius: 10px;
     width: 100%;
     margin-bottom: 20px;
+
 }
