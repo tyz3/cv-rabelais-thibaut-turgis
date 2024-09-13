@@ -7,7 +7,7 @@ img {
     right: 0px;
 }
 
-#div2 { 
+#etudes { 
     border: dotted;
     border: 2;
     background-color: rgb(182, 29, 29);
@@ -17,11 +17,12 @@ img {
 
 }
 
+
 body{
     background-color: rgba(17, 70, 230, 0.333);
 
 }
-#div3 { 
+#competences { 
     border: dotted;
     background-color: rgb(235, 211, 211);
     border-radius: 10px;
@@ -32,6 +33,7 @@ body{
 
 table{
     border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
 .violet {
@@ -39,7 +41,7 @@ table{
 
 }
 
-#div4 { 
+#experiences { 
     border: dotted;
     border: 2;
     background-color: rgb(182, 29, 29);
@@ -49,7 +51,7 @@ table{
 
 }
 
-#div5 { 
+#divers{ 
     border: dotted;
     background-color: rgb(235, 211, 211);
     border-radius: 10px;
