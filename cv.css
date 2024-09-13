@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(17, 70, 230, 0.333);
+}
+
 img {
     background-color: rgb(60, 168, 168);
     width: 150px;
@@ -5,6 +9,16 @@ img {
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.violet {
+    background-color: blueviolet;
 }
 
 #etudes { 
@@ -17,28 +31,12 @@ img {
 
 }
 
-
-body{
-    background-color: rgba(17, 70, 230, 0.333);
-
-}
 #competences { 
     border: dotted;
     background-color: rgb(235, 211, 211);
     border-radius: 10px;
     width: 100%;
     margin-bottom: 20px;
-
-}
-
-table{
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-.violet {
-    background-color: blueviolet;
-
 }
 
 #experiences { 
@@ -48,7 +46,6 @@ table{
     border-radius: 10px; 
     width: 100%;
     margin-bottom: 20px;
-
 }
 
 #divers{ 
@@ -57,5 +54,4 @@ table{
     border-radius: 10px;
     width: 100%;
     margin-bottom: 20px;
-
 }
