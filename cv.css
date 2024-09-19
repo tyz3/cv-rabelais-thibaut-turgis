@@ -11,20 +11,22 @@ img {
     right: 0px;
 }
 
+h1 {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Arial;
+}
 
 table{
     border-collapse: collapse;
-}
-
-.violet {
-    background-color: blueviolet;
+    width: 100%;
+    vertical-align: middle;
 }
 
 #etudes { 
     border: dotted;
     background-color: rgb(182, 29, 29);
     border-radius: 10px;
-    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -32,7 +34,6 @@ table{
     border: dotted;
     background-color: rgb(235, 211, 211);
     border-radius: 10px;
-    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -40,7 +41,6 @@ table{
     border: dotted;
     background-color: rgb(182, 29, 29);
     border-radius: 10px; 
-    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -48,5 +48,16 @@ table{
     border: dotted;
     background-color: rgb(235, 211, 211);
     border-radius: 10px;
-    width: 100%;
+}
+
+.violet {
+    background-color: blueviolet;
+}
+
+a:hover {
+    color: cornsilk;
+}
+
+a {
+    text-decoration: none;
 }

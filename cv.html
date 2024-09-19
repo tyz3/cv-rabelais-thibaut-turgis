@@ -2,124 +2,107 @@
 <html lang="fr">
 
 <head>
-    <title>cv html turgis thibaut</title>
-    <link rel="stylesheet" type="text/css" href="cv.css"/>
-<!-- charset=UTF-8 : pour que les caractères accentués ressortent correctement -->
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- la balise ci-dessus indique que l'affichage doit se faire sur la totalité de l'écran, par défaut voir Responsive Design -->
-
+    <title>CV HTML Turgis Thibaut</title>
+    <link rel="stylesheet" type="text/css" href="cv.css">
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-        <div id="presentation">
-            <table>
-                <tr>
-                    <td>Thibaut<br>
-                        TURGIS<br>
-                        France<br>
-                        Né le 14 octobre 2006 <br>
-                        <a href="mailto:turgis.thibaut@gmail.com">turgis.thibaut@gmail.com</a>
-                    </td>
-                    <td><img src="file.png" alt="Image utilisateur" > </td>
-                </tr>
-            
-            </table> 
-        </div>   
+    <div id="presentation">
+        <table>
+            <tr>
+                <td>
+                    Thibaut<br>
+                    TURGIS<br>
+                    France<br>
+                    Né le 14 octobre 2006<br>
+                    <a href="mailto:turgis.thibaut@gmail.com">turgis.thibaut@gmail.com</a>
+                </td>
+                <td><img src="file.png" alt="Image utilisateur"></td> 
+            </tr>
+        </table> 
+    </div>   
 
-        <div id="etudes">
+    <div id="etudes">
+        <h1>Études</h1>
+        <table>
+            <tr class="violet">
+                <td>2023/2024</td>
+                <td>Bac général (spé Mathématiques, NSI)</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>BTS SIO (Services informatiques aux organisations)</td>
+            </tr>
+            <tr class="violet">
+                <td>2025</td>
+                <td>A voir</td>
+            </tr>
+        </table>
+    </div>
 
-            <a><h1>Etudes</h1></a>
-            <table>
-                <tr class="violet">
-                    <td>2023/2024</td>
-                    <td>Bac générale (spé Mathématiques, NSI)</td>
+    <div id="competences">
+        <h1>Compétences informatiques</h1>
+        <table>
+            <tr class="violet">
+                <td>Système d'exploitation</td>
+                <td>Windows 10</td>
+            </tr>
+            <tr>
+                <td>Langages</td>
+                <td>HTML, CSS, Python, SQL, <a href="http://www.java.com/">Java</a></td>
+            </tr>
+            <tr class="violet">
+                <td>IDE</td>
+                <td>Thonny, Notepad++, Visual Studio Code</td>
+            </tr>
+            <tr>
+                <td>Frameworks</td>
+                <td>Aucun</td>
+            </tr>
+            <tr class="violet">
+                <td>Réseau</td>
+                <td>Routage</td>
+            </tr>
+        </table>
+    </div>
 
-                </tr>
-                <tr>
-                    <td>2024</td>
-                    <td>BTS SIO (Services informatiques aux organisations)</td>
-                    
-                </tr>
-                <tr class="violet">
-                    <td>2025</td>
-                    <td>A voir</td>
-                    
-                </tr>
-            </table>
+    <div id="experiences">
+        <h1>Expériences professionnelles</h1>
+        <table>
+            <tr class="violet">
+                <td>2009</td>
+                <td>École primaire</td>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td>Collège</td>
+            </tr>
+            <tr class="violet">
+                <td>2020</td>
+                <td>Lycée René Cassin</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>BTS SIO Lycée Rabelais</td>
+            </tr>
+        </table>
+    </div>
 
-        </div>
-
-        <div id="competences">
-
-            <a><h1>Compétences informatiques</h1></a>
-            <table>
-                <tr class="violet">
-                    <td>Système d'exploitation</td>
-                    <td>Windows 10</td>
-                    
-                <tr>
-                    <td>Langages</td>
-                    <td>HTML, CSS, python, SQL, <a href="http://www.java.com/">Java</a></td>
-                </tr>
-                <tr class="violet">
-                    <td>IDE</td>
-                    <td>Thonny, Notepad++, Visual studio code</td>
-
-                    
-                </tr>
-                <tr>
-                    <td>Frameworks</td>
-                    <td>Rien</td>
-                    
-                </tr>
-                <tr class="violet">
-                    <td>Réseau</td>
-                    <td>Routage</td>
-                    
-                </tr>
-            </table>
-        </div>
-
-
-        <div id="experiences">
-            <a><h1>Expériences professionnelles</h1></a>
-            <table>
-                <tr class="violet">
-                    <td>2009</td>
-                    <td>Ecole primaire</td>
-                    
-                </tr>
-                <tr>
-                    <td>2016</td>
-                    <td>Collège</td>
-                </tr>
-                <tr class="violet">
-                    <td>2020</td>
-                    <td>Lycée René Cassin</td>
-
-                    
-                </tr>
-                <tr>
-                    <td>2024</td>
-                    <td>BTS SIO Lycée Rabelais</td>
-                </tr>
-            </table>
-         </div>
-
-
-        <div id="divers">
-
-            <a><h1>Divers</h1></a>
-            <table>   
-                <ul>
-                    <li>Jeux vidéos</li>
-                    <li>Musique</li>
-                </ul>
-            </table>
-        </div>
-
+    <div id="divers">
+        <h1>Divers</h1>
+        <table>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Jeux vidéos</li>
+                        <li>Musique</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 
-</html>  
+</html>
