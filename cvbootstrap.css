@@ -1,0 +1,80 @@
+body{
+    background-color: rgba(17, 70, 230, 0.333);
+}
+
+img {
+    background-color: rgb(60, 168, 168);
+    width: 150px;
+    height: 100px;
+    top: 0px;
+    right: 0px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Arial;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    vertical-align: middle;
+}
+
+#etudes { 
+    border: dotted;
+    background-color: rgb(182, 29, 29);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#competences { 
+    border: dotted;
+    background-color: rgb(235, 211, 211);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#experiences { 
+    border: dotted;
+    background-color: rgb(182, 29, 29);
+    border-radius: 10px; 
+    margin-bottom: 20px;
+}
+
+#divers{ 
+    border: dotted;
+    background-color: rgb(235, 211, 211);
+    border-radius: 10px;
+}
+
+.violet {
+    background-color: blueviolet;
+}
+
+#test {
+    background-color: rgb(37, 153, 85);
+}
+
+.jumbotron {
+    text-align: center;
+    border: 12;
+    background-color: aliceblue;
+    background-size: 100px ;
+}
+a:hover {
+    color: cornsilk;
+}
+
+a {
+    text-decoration: none;
+}
+
+#cv {
+    background-color: aliceblue;
+    color:brown;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
