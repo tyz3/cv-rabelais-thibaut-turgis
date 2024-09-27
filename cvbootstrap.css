@@ -53,28 +53,34 @@ table{
     background-color: blueviolet;
 }
 
-#test {
-    background-color: rgb(37, 153, 85);
-}
-
-.jumbotron {
-    text-align: center;
-    border: 12;
-    background-color: aliceblue;
-    background-size: 100px ;
-}
 a:hover {
     color: cornsilk;
+}
+
+#navbar {
+    background-color: rgb(37, 153, 85);
 }
 
 a {
     text-decoration: none;
 }
 
-#cv {
-    background-color: aliceblue;
-    color:brown;
-    text-align: center;
-    margin-bottom: 20px;
+p {
+    font-size: 11px;
 }
 
+.jumbotron {
+    background-color: aliceblue;
+    color:brown;
+    padding: 50px;
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: Arial;
+}
+
+#presentation {
+    background-color: grey;
+}
